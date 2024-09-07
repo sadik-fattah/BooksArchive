@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -12,6 +14,96 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BooksArchive"
         tools:targetApi="31">
+        <activity
+            android:name=".Activities.english.En_TutarielBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_ScienceBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_religienBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_NovelsBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_ITBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_HumandeveBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_HistoryBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_HealthBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_FitnessBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_EngineeringTechmologyBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_DictionariesLanguageBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_CookingBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.english.En_ChildrenBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_TutarielBooks$Ar_EducationalstudycurriculaBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_ScienceBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_CookingBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_FitnessBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_HealthBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_ChildrenBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_DictionariesLanguagesBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_EngineeringTechnologyBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_NovelsBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_HumandeveBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_TutarielBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_ReligienBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_HistoryBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.Ar_ITBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic.It_Books"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.EnglishBooks"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Arabic_Books"
+            android:exported="false" />
         <activity
             android:name=".Home"
             android:exported="false" />
