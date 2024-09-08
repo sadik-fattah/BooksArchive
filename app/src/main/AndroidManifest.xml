@@ -15,6 +15,12 @@
         android:theme="@style/Theme.BooksArchive"
         tools:targetApi="31">
         <activity
+            android:name=".Activities.Arabic.Ar_EducationalstudycurriculaBooks"
+            android:exported="false" />
+        <activity
+            android:name=".BooksDaiteils"
+            android:exported="false" />
+        <activity
             android:name=".Activities.english.En_TutarielBooks"
             android:exported="false" />
         <activity

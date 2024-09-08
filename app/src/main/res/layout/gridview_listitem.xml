@@ -22,9 +22,9 @@
      android:layout_width="wrap_content"
      android:layout_height="wrap_content"
      android:text="كتب"
-     android:textSize="26dp"
+     android:textSize="10dp"
      android:fontFamily="@font/reemkufi"
-     android:layout_gravity="center_horizontal"
+     android:layout_gravity="center"
      android:textColor="@color/black"/>
     </LinearLayout>
 

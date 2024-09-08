@@ -19,7 +19,6 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.guercifzone.booksarchive.Adapters.RecyclerViewAdapter;
-import com.guercifzone.booksarchive.Models.GridFeed;
 import com.guercifzone.booksarchive.Models.RecyclFeed;
 import com.guercifzone.booksarchive.R;
 
@@ -30,7 +29,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ar_ChildrenBooks extends AppCompatActivity {
+public class Ar_EducationalstudycurriculaBooks extends AppCompatActivity {
     private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/BooksSitmap.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
@@ -42,10 +41,10 @@ public class Ar_ChildrenBooks extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ar_children_books);
+        setContentView(R.layout.ar_educationalstudycurricula_books);
         lsArzone = new ArrayList<>();
-        recyclerView = (RecyclerView) findViewById(R.id.rv_arChildrenBooks);
-        searchView = (SearchView)findViewById(R.id.sv_Book_arChildren);
+        recyclerView = (RecyclerView) findViewById(R.id.rv_arEdicational);
+        searchView = (SearchView)findViewById(R.id.sv_Book_arEducational);
         searchView.clearFocus();
         Jsonrequest();
         editableSearch();
@@ -106,7 +105,7 @@ public class Ar_ChildrenBooks extends AppCompatActivity {
 
             }
         });
-        requestQueue = Volley.newRequestQueue(Ar_ChildrenBooks.this);
+        requestQueue = Volley.newRequestQueue(Ar_EducationalstudycurriculaBooks.this);
         requestQueue.add(request);
     }
     private void setuprecyclerview(List<RecyclFeed> lsArzone) {

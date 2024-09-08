@@ -32,6 +32,16 @@ android {
 }
 
 dependencies {
+    implementation ("com.android.volley:volley:1.2.1")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    implementation("androidx.activity:activity:1.9.1")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.16.0")
+    implementation (platform("com.google.firebase:firebase-bom:30.3.1"))
+    implementation ("com.google.firebase:firebase-crashlytics-ktx")
+    implementation ("com.google.firebase:firebase-analytics-ktx")
+    implementation("androidx.navigation:navigation-fragment:2.7.7")
+    implementation("androidx.navigation:navigation-ui:2.7.7")
+    implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
 
     implementation(libs.appcompat)
     implementation(libs.material)
