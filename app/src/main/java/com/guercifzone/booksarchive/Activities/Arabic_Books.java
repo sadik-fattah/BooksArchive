@@ -47,18 +47,33 @@ public class Arabic_Books extends AppCompatActivity {
             return insets;
         });
         List<GridFeed> itemlist = new ArrayList<>();
+        //children books
         itemlist.add(new GridFeed("كتب للأطفال", R.drawable.book));
+        //cooking books
         itemlist.add(new GridFeed("كتب الطبخ", R.drawable.book));
+        //dictionary language books
         itemlist.add(new GridFeed("كتب ترجمة ولغات",R.drawable.book));
+        //engineering technology books
         itemlist.add(new GridFeed("كتب هندسة تكنولوجيا", R.drawable.book));
+        //fitnees books
         itemlist.add(new GridFeed("كتب الرياضة", R.drawable.book));
+        //health books
         itemlist.add(new GridFeed("كتب الصحة", R.drawable.book));
-        itemlist.add(new GridFeed("كتب  التنمية البشرية", R.drawable.book));
-        itemlist.add(new GridFeed("كتب علوم الحاسوب", R.drawable.book));
-        itemlist.add(new GridFeed("كتب  القصص والروايات", R.drawable.book));
-        itemlist.add(new GridFeed("كتب  دينية", R.drawable.book));
+        //history books
+        itemlist.add(new GridFeed("كتب  التاريخ", R.drawable.book));
+        //human devloing books
+        itemlist.add(new GridFeed("كتب التنمية البشرية", R.drawable.book));
+        //it books
+        itemlist.add(new GridFeed("كتب  علوم الحاسوب", R.drawable.book));
+        //novels books
+        itemlist.add(new GridFeed("كتب  روايات وادب عربي", R.drawable.book));
+        //religien books
+        itemlist.add(new GridFeed("كتب دينية", R.drawable.book));
+        //science books
         itemlist.add(new GridFeed("كتب علمية", R.drawable.book));
-        itemlist.add(new GridFeed("كتب شروحات", R.drawable.book));
+        //tutariel books
+        itemlist.add(new GridFeed("كتب  تعليمية", R.drawable.book));
+
 
 
 

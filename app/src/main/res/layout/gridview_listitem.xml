@@ -16,7 +16,7 @@
             android:background="@color/white"
             android:layout_gravity="center_horizontal"
             android:scaleType="fitXY"
-            android:src="@drawable/ca22lp01"/>
+            android:src="@drawable/book"/>
 
  <TextView android:id="@+id/selectedtext"
      android:layout_width="wrap_content"

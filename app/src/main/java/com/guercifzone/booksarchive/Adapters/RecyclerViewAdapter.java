@@ -30,7 +30,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public RecyclerViewAdapter(Context mcontext, List<RecyclFeed> feedList) {
         this.mcontext = mcontext;
         this.feedList = feedList;
-        options = new RequestOptions().centerCrop().placeholder(R.drawable.ca22lp01);
+        options = new RequestOptions().centerCrop().placeholder(R.drawable.book);
     }
     @NonNull
     @NotNull

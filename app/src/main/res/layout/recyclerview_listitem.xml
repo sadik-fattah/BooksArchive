@@ -17,14 +17,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
     <ImageView android:id="@+id/thumbnail"
-        android:layout_height="150dp"
+        android:layout_height="100dp"
         android:layout_width="100dp"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        android:scaleType="center"
-        android:src="@drawable/ca22lp01"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/book"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>
