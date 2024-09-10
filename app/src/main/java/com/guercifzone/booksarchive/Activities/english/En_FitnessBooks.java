@@ -106,7 +106,7 @@ public class En_FitnessBooks extends AppCompatActivity {
 
             }
         });
-        requestQueue = Volley.newRequestQueue(Ar_ChildrenBooks.this);
+        requestQueue = Volley.newRequestQueue(En_FitnessBooks.this);
         requestQueue.add(request);
     }
     private void setuprecyclerview(List<RecyclFeed> lsArzone) {

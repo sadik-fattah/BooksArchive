@@ -19,6 +19,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.guercifzone.booksarchive.Activities.Arabic.Ar_ChildrenBooks;
+import com.guercifzone.booksarchive.Activities.Arabic.Ar_ScienceBooks;
 import com.guercifzone.booksarchive.Adapters.RecyclerViewAdapter;
 import com.guercifzone.booksarchive.Models.RecyclFeed;
 import com.guercifzone.booksarchive.R;
@@ -106,7 +107,7 @@ public class En_ScienceBooks extends AppCompatActivity {
 
             }
         });
-        requestQueue = Volley.newRequestQueue(Ar_ChildrenBooks.this);
+        requestQueue = Volley.newRequestQueue(En_ScienceBooks.this);
         requestQueue.add(request);
     }
     private void setuprecyclerview(List<RecyclFeed> lsArzone) {
