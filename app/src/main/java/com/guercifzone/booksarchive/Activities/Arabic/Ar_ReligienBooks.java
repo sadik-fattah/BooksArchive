@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ar_ReligienBooks extends AppCompatActivity {
-    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/BooksSitmap.json";
+    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/ArabicBooks/ArReligien.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<RecyclFeed> lsArzone;

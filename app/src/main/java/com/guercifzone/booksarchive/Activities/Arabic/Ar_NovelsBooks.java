@@ -31,7 +31,7 @@ import java.util.List;
 
 public class Ar_NovelsBooks extends AppCompatActivity {
 //الروايات
-private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/BooksSitmap.json";
+private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/ArabicBooks/ArNovels.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<RecyclFeed> lsArzone;
