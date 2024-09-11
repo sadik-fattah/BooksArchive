@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class En_DictionariesLanguageBooks extends AppCompatActivity {
-    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/ArabicBooks/ArChildren.json";
+    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/EnglishBooks/EnDictionaries.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<RecyclFeed> lsArzone;
@@ -42,10 +42,10 @@ public class En_DictionariesLanguageBooks extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ar_children_books);
+        setContentView(R.layout.en_dictionaries_language_books);
         lsArzone = new ArrayList<>();
-        recyclerView = (RecyclerView) findViewById(R.id.rv_arChildrenBooks);
-        searchView = (SearchView)findViewById(R.id.sv_Book_arChildren);
+        recyclerView = (RecyclerView) findViewById(R.id.rv_endectionaire);
+        searchView = (SearchView)findViewById(R.id.sv_Book_enDictionaire);
         searchView.clearFocus();
         Jsonrequest();
         editableSearch();

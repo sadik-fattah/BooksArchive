@@ -31,7 +31,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class En_EngineeringTechmologyBooks extends AppCompatActivity {
-    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/ArabicBooks/ArChildren.json";
+    private final String JSON_URL ="https://raw.githubusercontent.com/sadik-fattah/SimpleDataBase/main/BookCenter/EnglishBooks/EnEngineering.json";
     private JsonArrayRequest request;
     private RequestQueue requestQueue;
     private List<RecyclFeed> lsArzone;
@@ -42,10 +42,10 @@ public class En_EngineeringTechmologyBooks extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ar_children_books);
+        setContentView(R.layout.en_engineering_techmology_books);
         lsArzone = new ArrayList<>();
-        recyclerView = (RecyclerView) findViewById(R.id.rv_arChildrenBooks);
-        searchView = (SearchView)findViewById(R.id.sv_Book_arChildren);
+        recyclerView = (RecyclerView) findViewById(R.id.rv_enEngineering);
+        searchView = (SearchView)findViewById(R.id.sv_Book_enEngineering);
         searchView.clearFocus();
         Jsonrequest();
         editableSearch();
